@@ -1,0 +1,33 @@
+#! /bin/tcsh -f
+
+# Script to cycle through regridding dates
+# Alice DuVivier- Sept 2016
+#################################################
+##############
+# USER INPUTS
+##############
+set vars = ('HMXL' 'XMXL')
+
+##############
+# start loops
+set v1 = 1
+while ($v1 <= 2)  # max: 8
+
+set varcode1 = $vars[$v1]
+
+##############
+# Input into ncl
+##############
+
+        echo 'Creating figures for '$varcode1
+        ncl 'varcode1       = "'$varcode1'"'\
+            ./plot_physics_annual_cycle_mixedlayer_all.ncl
+        
+        ncl 'varcode1       = "'$varcode1'"'\
+            ./plot_physics_annual_cycle_mixedlayer_diffs_all.ncl
+        rm *.ps
+
+@ v1 ++
+end
+
+
