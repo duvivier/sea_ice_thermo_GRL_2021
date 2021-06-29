@@ -1,0 +1,129 @@
+;***************************************
+; PROGRAM DESCRIPTION: Create timeseries of CESM ice volume
+; INPUT DATA: CESM timeseries
+; OUTPUT DATA: plot
+; CREATOR: Alice DuVivier - Jan 2019
+;***************************************
+load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_code.ncl"
+load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_csm.ncl"
+load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/contributed.ncl"
+load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/shea_util.ncl"
+;***************************************
+
+begin
+;;;;;;;;;;
+; Manual inputs
+;;;;;;;;;;
+;case = "b.e21.B1850.f09_g17.CMIP6-piControl.001b"
+;case = "b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b"
+varcode1 = "uatm"
+varcode2 = "vatm"
+varcode3 = "wsatm"
+
+;;;;;;;;;;
+; Get paths to files
+;;;;;;;;;;
+print("Establishing data paths")
+; cesm directory
+data_dir = "./"
+;data_dir = "/glade/p/cgd/ppc/duvivier/cesm2_antarctic_polynya/DATA/"+case+"_spatial_timeseries/"
+mask_dir = "/glade/p/cgd/ppc/duvivier/cesm2_antarctic_polynya/DATA/masks/"
+grid_dir = "/glade/p/cesm/omwg/grids/"
+
+;;;;;;;;;;
+; Get CESM dimensions, etc
+;;;;;;;;;;
+print("Loading CESM grid data")
+; get dimensions
+b_file = addfile(grid_dir+"gx1v7_grid.nc","r")
+lat2d = b_file->TLAT
+lon2d = b_file->TLONG
+tarea = b_file->TAREA
+kmt = b_file->KMT
+; mask tarea where there is land
+tarea = where(kmt .gt. 0.5, tarea, tarea@_FillValue)
+; convert from cm^2 to m^2
+tarea = tarea/100.0/100.0
+;dims = dimsizes(lat2d)
+;nlat = dims(0)
+;nlon = dims(1)
+delete(b_file)
+
+; subset over Antarctic coast only
+lat2d_sub = lat2d(0:36,:)
+lon2d_sub = lon2d(0:36,:)
+tarea_sub = tarea(0:36,:)
+
+; get dimensions
+dims = dimsizes(lat2d_sub)
+nlat = dims(0)
+nlon = dims(1)
+
+;;;;;;;;;;
+; Get CESM masks for region
+;;;;;;;;;;
+print("get mask of region of interest")
+;; get hemispheric mask
+fin = addfile(mask_dir+"antarctic_ocean_masks.nc","r")
+sh_mask    = fin->sh_mask
+coast_mask = fin->coast_mask
+Wed_mask   = fin->Wed_mask
+Ross_mask  = fin->Ross_mask
+Ind_mask   = fin->Ind_mask
+Pac_mask   = fin->Pac_mask
+BAm_mask   = fin->BAm_mask
+delete(fin)
+
+; now get areas for these regions
+coast = coast_mask(0:36,:)
+Wed = Wed_mask(0:36,:)      
+Ross = Ross_mask(0:36,:)      
+Ind = Ind_mask(0:36,:)      
+Pac = Pac_mask(0:36,:)      
+BAm = BAm_mask(0:36,:)      
+
+;;;;;;;;;;
+; Load CESM Data
+;;;;;;;;;;
+nmons = 12
+nyrs = 100
+ntimes = nmons*nyrs
+; list files
+fin1 = addfile(data_dir+case+"_coastal_"+varcode1+".nc","r")
+fin2 = addfile(data_dir+case+"_coastal_"+varcode2+".nc","r")
+; load data
+data_1 = fin1->data_coast
+data_2 = fin2->data_coast
+; load times
+yy_b = fin1->yy_all
+mm_b = fin1->mm_all
+
+; calculate wind speed
+data_3 = sqrt((data_1*data_1)+(data_2*data_2))
+copy_VarMeta(data_1,data_3)
+data_3@long_name = "scalar wind speed"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Output to a netcdf so I can plot together
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+print("Saving to netcdf file for plotting")
+outdir = "./"
+fout3 = outdir+case+"_coastal_"+varcode3
+ncdf3 = addfile(fout3+".nc","c")
+ncdf3->coast_mask = coast
+ncdf3->Wed_mask = Wed
+ncdf3->Ross_mask = Ross
+ncdf3->Ind_mask = Ind
+ncdf3->Pac_mask = Pac
+ncdf3->BAm_mask = BAm
+ncdf3->yy_all = yy_b
+ncdf3->mm_all = mm_b
+ncdf3->tarea = tarea_sub
+ncdf3->lat2d = lat2d_sub
+ncdf3->lon2d = lon2d_sub
+ncdf3->data_coast = data_3
+
+print("Done with file")
+
+;;;;;;;;;;;;;;;;;;;;;; END script
+end

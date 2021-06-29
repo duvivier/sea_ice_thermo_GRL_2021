@@ -1,0 +1,39 @@
+Current GLADE space usage: duvivier
+
+  Space                                      Used       Quota    % Full      # Files
+--------------------------------------- ----------- ----------- --------- -----------
+/glade/scratch/duvivier                     0.00 GB    40.00 TB    0.00 %          67
+/glade/work/duvivier                      484.99 GB  1024.00 GB   47.36 %      214454
+/glade/u/home/duvivier                     19.84 GB    50.00 GB   39.68 %      119132
+--------------------------------------- ----------- ----------- --------- -----------
+/glade/u/cesm-scripts                     250.99 GB  1024.00 GB   24.51 %      250922
+/glade/p/cesm                            1136.83 TB  1200.00 TB   94.74 %    11425361
+/glade/p/cgd/cas                           85.52 TB   100.00 TB   85.52 %     1782678
+/glade/p/cgd/ccr                           92.41 TB   100.00 TB   92.41 %      800883
+/glade/p/cgd/ppc                           74.08 TB   100.00 TB   74.08 %      911447
+/glade/p/cgd/amp                          296.83 TB   300.00 TB   98.94 %    12524912
+--------------------------------------- ----------- ----------- --------- -----------
+Campaign: duvivier (user total)            22.11 TB         n/a       n/a      214722
+/glade/campaign/collections/cmip/CMIP6   2911.37 TB  4096.00 TB   71.08 %     3177822
+/glade/campaign/cesm                     6818.14 TB  9216.00 TB   73.98 %    12986139
+/glade/campaign/cgd/cesm                 1112.76 TB  2048.00 TB   54.33 %     3442194
+/glade/campaign/cgd/ccr                   546.34 TB   900.00 TB   60.70 %     3781633
+/glade/campaign/cgd/ppc                   355.10 TB   900.00 TB   39.46 %      952635
+/glade/campaign/cgd/amp                  1024.74 TB  1025.00 TB   99.97 %    15633304
+/glade/campaign/cgd/projects                0.00 GB  1024.00 TB    0.00 %           2
+/glade/campaign/univ/uvan0003               0.00 GB     3.00 TB    0.00 %           2
+(Campaign usage as of: Fri Feb 19 19:05:04 MST 2021)
+
+/glade/scratch  - 74.7% used (11475 TB used out of 15360 TB total)
+
+working on:  920
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001b.pop.h.092001-092012.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001b.pop.h.092001-092012.MOCsig2.nc: 405 seconds <=====
+
+Finished!

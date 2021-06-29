@@ -1,0 +1,269 @@
+Current GLADE space usage: duvivier
+
+  Space                                      Used       Quota    % Full      # Files
+--------------------------------------- ----------- ----------- --------- -----------
+/glade/scratch/duvivier                     5.78 GB    40.00 TB    0.01 %          82
+/glade/work/duvivier                      484.99 GB  1024.00 GB   47.36 %      214454
+/glade/u/home/duvivier                     19.84 GB    50.00 GB   39.68 %      119131
+--------------------------------------- ----------- ----------- --------- -----------
+/glade/u/cesm-scripts                     250.99 GB  1024.00 GB   24.51 %      250922
+/glade/p/cesm                            1153.54 TB  1200.00 TB   96.13 %    11589843
+/glade/p/cgd/cas                           85.52 TB   100.00 TB   85.52 %     1782678
+/glade/p/cgd/ccr                           92.44 TB   100.00 TB   92.44 %      802114
+/glade/p/cgd/ppc                           74.12 TB   100.00 TB   74.12 %      914309
+/glade/p/cgd/amp                          297.58 TB   300.00 TB   99.19 %    12664529
+--------------------------------------- ----------- ----------- --------- -----------
+Campaign: duvivier (user total)            22.11 TB         n/a       n/a      214722
+/glade/campaign/collections/cmip/CMIP6   2919.14 TB  4096.00 TB   71.27 %     3178032
+/glade/campaign/cesm                     7033.66 TB  9216.00 TB   76.32 %    13660045
+/glade/campaign/cgd/cesm                 1203.36 TB  2048.00 TB   58.76 %     3824503
+/glade/campaign/cgd/ccr                   558.58 TB   900.00 TB   62.06 %     3867363
+/glade/campaign/cgd/ppc                   358.10 TB   900.00 TB   39.79 %      955823
+/glade/campaign/cgd/amp                  1020.23 TB  1025.00 TB   99.53 %    15705450
+/glade/campaign/cgd/projects                0.00 GB  1024.00 TB    0.00 %           2
+/glade/campaign/univ/uvan0003               0.00 GB     3.00 TB    0.00 %           2
+(Campaign usage as of: Mon Mar  8 20:05:04 MST 2021)
+
+/glade/scratch  - 75.1% used (11531 TB used out of 15360 TB total)
+
+working on:  921
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.092101-092112.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.092101-092112.MOCsig2.nc: 492 seconds <=====
+
+working on:  922
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.092201-092212.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.092201-092212.MOCsig2.nc: 493 seconds <=====
+
+working on:  923
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.092301-092312.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.092301-092312.MOCsig2.nc: 494 seconds <=====
+
+working on:  924
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.092401-092412.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.092401-092412.MOCsig2.nc: 494 seconds <=====
+
+working on:  925
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.092501-092512.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.092501-092512.MOCsig2.nc: 494 seconds <=====
+
+working on:  926
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.092601-092612.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.092601-092612.MOCsig2.nc: 494 seconds <=====
+
+working on:  927
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.092701-092712.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.092701-092712.MOCsig2.nc: 489 seconds <=====
+
+working on:  928
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.092801-092812.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.092801-092812.MOCsig2.nc: 503 seconds <=====
+
+working on:  929
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.092901-092912.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.092901-092912.MOCsig2.nc: 498 seconds <=====
+
+working on:  930
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093001-093012.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093001-093012.MOCsig2.nc: 498 seconds <=====
+
+working on:  931
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093101-093112.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093101-093112.MOCsig2.nc: 496 seconds <=====
+
+working on:  932
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093201-093212.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093201-093212.MOCsig2.nc: 496 seconds <=====
+
+working on:  933
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093301-093312.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093301-093312.MOCsig2.nc: 494 seconds <=====
+
+working on:  934
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093401-093412.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093401-093412.MOCsig2.nc: 491 seconds <=====
+
+working on:  935
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093501-093512.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093501-093512.MOCsig2.nc: 492 seconds <=====
+
+working on:  936
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093601-093612.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093601-093612.MOCsig2.nc: 487 seconds <=====
+
+working on:  937
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093701-093712.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093701-093712.MOCsig2.nc: 492 seconds <=====
+
+working on:  938
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093801-093812.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093801-093812.MOCsig2.nc: 489 seconds <=====
+
+working on:  939
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093901-093912.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.093901-093912.MOCsig2.nc: 496 seconds <=====
+
+working on:  940
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.094001-094012.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.094001-094012.MOCsig2.nc: 493 seconds <=====
+
+working on:  941
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.094101-094112.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.094101-094112.MOCsig2.nc: 510 seconds <=====
+
+working on:  942
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.094201-094212.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.094201-094212.MOCsig2.nc: 509 seconds <=====
+
+working on:  943
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.094301-094312.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.094301-094312.MOCsig2.nc: 504 seconds <=====
+
+working on:  944
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	generating /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.094401-094412.MOCsig2.nc...
+(0)	
+=====> Wall Clock Elapsed Time: DONE: created /glade/scratch/duvivier/CESM2/MOC/b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99b.pop.h.094401-094412.MOCsig2.nc: 494 seconds <=====
+
+Finished!
