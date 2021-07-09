@@ -10,8 +10,8 @@ set vars = ('TEMP' 'SALT' 'PD')
 
 ##############
 # start loops
-set v1 = 1
-while ($v1 <= 2)  # max: 8
+set v1 = 3
+while ($v1 <= 3)  # max: 8
 
 set varcode1 = $vars[$v1]
 

@@ -32,10 +32,10 @@ ntime = 12*nyrs
 ;;;;;;;;;;
 print("Establishing data paths")
 ; cesm directory
-;data_dir1 = "/glade/p/cgd/ppc/duvivier/cesm2_antarctic_polynya/DATA/"+case1+"_spatial_timeseries/"
-;data_dir2 = "/glade/p/cgd/ppc/duvivier/cesm2_antarctic_polynya/DATA/"+case2+"_spatial_timeseries/"
-data_dir1 = "/project/ppc/duvivier/projects/cesm2_antarctic_polynya/DATA/"+case1+"_spatial_timeseries/"
-data_dir2 = "/project/ppc/duvivier/projects/cesm2_antarctic_polynya/DATA/"+case2+"_spatial_timeseries/"
+data_dir1 = "/glade/p/cgd/ppc/duvivier/cesm2_antarctic_polynya/DATA/"+case1+"_spatial_timeseries/"
+data_dir2 = "/glade/p/cgd/ppc/duvivier/cesm2_antarctic_polynya/DATA/"+case2+"_spatial_timeseries/"
+;data_dir1 = "/project/ppc/duvivier/projects/cesm2_antarctic_polynya/DATA/"+case1+"_spatial_timeseries/"
+;data_dir2 = "/project/ppc/duvivier/projects/cesm2_antarctic_polynya/DATA/"+case2+"_spatial_timeseries/"
 
 ;;;;;;;;;;
 ; Get data
@@ -80,7 +80,7 @@ delete(fin2)
 if (varcode1.eq."PD")
    data_1 = data_1*1000.0
    data_2 = data_2*1000.0
-   ; now convert to sigma
+   ; now convert to sigma0 (surface reference)
    data_1 = data_1-1000.0
    data_2 = data_2-1000.0
    data_1@units = "kg/m3"
@@ -281,8 +281,8 @@ if (varcode1.eq."SALT")
    diff_cntrs = fspan(-0.14,0.14,15)
 end if
 if (varcode1.eq."PD")
-   pref1 = "a) Sigma"
-   pref2 = "d) Sigma"
+   pref1 = "a) Sigma0"
+   pref2 = "d) Sigma0"
    colors = "cmocean_dense"
    main_cntrs = fspan(26.8,28.2,15)
    ;main_cntrs = fspan(1026.8,1028.2,15)
